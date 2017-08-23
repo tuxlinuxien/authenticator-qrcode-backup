@@ -46,12 +46,6 @@ func showBitmap(q *qrcode.QRCode) {
 	}
 }
 
-// if qr.shrinkPoints[x][y] == 1 {
-// 				fmt.Print("\033[40;37m  \033[0m")
-// 			} else {
-// 				fmt.Print("\033[47;30m  \033[0m")
-// 			}
-
 func main() {
 	dec := json.NewDecoder(os.Stdin)
 	c := map[string]Entry{}
